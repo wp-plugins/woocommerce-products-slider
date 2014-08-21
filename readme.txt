@@ -1,7 +1,7 @@
 === Woocommerce Products Slider ===
 	Contributors: wpkids
 	Donate link: 
-	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, woocommerce product slider
+	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider
 	Requires at least: 3.8
 	Tested up to: 3.9.1
 	Stable tag: 1.0
@@ -22,7 +22,6 @@ A premium quality carousel slider to slide your woocommerce product. easy to use
 * Fully responsive and mobile ready.
 * Unlimited slider anywhere.
 * Query post from latest post, Older Published, Featured Items, by Only Year, by Month of a year, Taxonomy & Categories, Product id.
-
 * Two different Theme.
 * Custom number of slider items to query.
 * Custom number of  Slider Column Number.
