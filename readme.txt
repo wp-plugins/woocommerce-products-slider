@@ -1,4 +1,4 @@
-=== PricingTable ===
+=== Woocommerce Products Slider ===
 	Contributors: wpkids
 	Donate link: 
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, woocommerce product slider
