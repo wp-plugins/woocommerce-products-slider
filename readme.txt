@@ -8,12 +8,12 @@
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-	Fully responsive and mobile ready Carousel Slider for your woocommerce product. unlimited silder anywhere via short-codes and easy admin setting.
+	Fully responsive and mobile ready Carousel Slider for your woo-commerce product. unlimited slider anywhere via short-codes and easy admin setting.
 
 == Description ==
 
 
-A premium quality carousel slider to slide your woocommerce product. easy to use via shortcode anywhere 
+A premium quality carousel slider to slide your woo-commerce product. easy to use via shortcode anywhere 
 
 
 
@@ -26,7 +26,7 @@ A premium quality carousel slider to slide your woocommerce product. easy to use
 * Custom number of slider items to query.
 * Custom number of  Slider Column Number.
 * Slider Items Thumbnail images Size selection.
-* Featured product merker.
+* Featured product marker.
 * Ribbons for slider.
 * Background Image for slider area.
 * Add to cart Background Color.
@@ -47,13 +47,13 @@ https://www.youtube.com/watch?v=B0sOSp3h9fE
 1. Install as regular WordPress plugin.<br />
 2. Go your plugin setting via WordPress Dashboard and find "<strong>Woocommerce Products Slider</strong>" activate it.<br />
 
-After activate plugin you will see "WCPS" menu at left side on wordpress dashboard click "New WCPS" and use the options field "Woocommerce Products Slider"<br />
+After activate plugin you will see "WCPS" menu at left side on WordPress dashboard click "New WCPS" and use the options field "Woocommerce Products Slider"<br />
 
 <br />
 <strong>How to use on page or post</strong><br />
 When slider options setup done please publish WCPS as like post or page<br />
 
-and then copy shortcode from top of <strong>Woocommerce Products Slider Options</strong> `[wcps  id="1234" ]`<br />
+and then copy shortcode from top of <strong>Woo-commerce Products Slider Options</strong> `[wcps  id="1234" ]`<br />
 
 then paste this shortcode anywhere in your page to display slider<br />
 
