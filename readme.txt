@@ -38,7 +38,9 @@ A premium quality carousel slider to slide your woocommerce product. easy to use
 * Slider Pagination Background Color
 * Slider Pagination Text Color
 
-
+<br />
+<strong>Video Tutorial Here.</strong>
+https://www.youtube.com/watch?v=B0sOSp3h9fE
 
 == Installation ==
 
@@ -55,8 +57,7 @@ and then copy shortcode from top of <strong>Woocommerce Products Slider Options<
 
 then paste this shortcode anywhere in your page to display slider<br />
 
-<strong>Video Tutorial Here.</strong>
-https://www.youtube.com/watch?v=B0sOSp3h9fE
+
 
 
 
