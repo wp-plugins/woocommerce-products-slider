@@ -55,6 +55,10 @@ and then copy shortcode from top of <strong>Woocommerce Products Slider Options<
 
 then paste this shortcode anywhere in your page to display slider<br />
 
+<strong>Video Tutorial Here.</strong>
+https://www.youtube.com/watch?v=B0sOSp3h9fE
+
+
 
 
 
