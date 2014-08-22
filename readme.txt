@@ -8,7 +8,7 @@
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-	Carousel Slider for your woocommerce product.
+	Fully responsive and mobile ready Carousel Slider for your woocommerce product. unlimited silder anywhere via short-codes and easy admin setting.
 
 == Description ==
 
