@@ -1,10 +1,10 @@
 === Woocommerce Products Slider ===
-	Contributors: wpkids
-	Donate link: 
+	Contributors: paratheme
+	Donate link: http://paratheme.com
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider
 	Requires at least: 3.8
 	Tested up to: 3.9.1
-	Stable tag: 1.0
+	Stable tag: 1.1
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,12 @@
 
 A premium quality carousel slider to slide your woo-commerce product. easy to use via shortcode anywhere 
 
+
+### Woocommerce Products Slider by http://paratheme.com
+
+* [See the Live demo!&raquo;](http://product-slider.com)
+* [Watch Video Tutorial!&raquo;](https://www.youtube.com/watch?v=B0sOSp3h9fE)
+* [Upgrade to Premium!&raquo;](http://paratheme.com/items/woocommerce-product-slider-for-wordpress/)
 
 
 <strong>Plugin Features</strong><br />
@@ -71,5 +77,10 @@ then paste this shortcode anywhere in your page to display slider<br />
 
 == Changelog ==
 
+	= 1.1 =
+    * 24/08/2014 Update plugin description.
+	* 24/08/2014 Update Live Demo.
+	* 24/08/2014 Added Video Tutorial.
+	
 	= 1.0 =
-    * 22/07/2014 Initial release.
+    * 22/08/2014 Initial release.
