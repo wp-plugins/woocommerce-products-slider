@@ -7,7 +7,7 @@
         
 <h3>Have any issue ?</h3>
 
-<p>Feel free to Contact with any issue for this plugin <a href="http://wordpress.org/support/plugin/woocommerce-products-slider/">http://wordpress.org/support/plugin/woocommerce-products-slider/</a>
+<p>Feel free to Contact with any issue for this plugin <a href="http://paratheme.com/qa/">http://paratheme.com/qa/</a>
 </p>
 
 <?php
@@ -48,7 +48,7 @@ if($wcps_customer_type=="free")
 	<li>Fully responsive and mobile ready.</li>    
 	<li>Query product by Taxonomy and Categories.</li>
     <li>Query product by Product id.</li>
-	<li>Amazing extra 4 themes.</li>   
+	<li>Amazing extra 5 themes.</li>   
 	<li>Slider Items Title Color.</li>  
 	<li>Slider Items Price Color.</li>
 	<li>Slider Custom ribbons.</li>    
@@ -56,6 +56,10 @@ if($wcps_customer_type=="free")
 
 </ul>
 
+<br /><br />
+<h3>Get Premium Vesrion:</h3><br />
+<strong style="font-size:20px;">Price: $5(USD)</strong><br />
+Plugin Link: <a target="_blank" href="http://paratheme.com/items/woocommerce-product-slider-for-wordpress/">http://paratheme.com/items/woocommerce-product-slider-for-wordpress/</a><br /><br /> <br />
 
 
 </p>
