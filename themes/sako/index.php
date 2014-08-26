@@ -30,8 +30,9 @@ function wcps_body_sako($post_id)
 		$wcps_content_month_year = get_post_meta( $post_id, 'wcps_content_month_year', true );
 		
 		$wcps_taxonomy = get_post_meta( $post_id, 'wcps_taxonomy', true );		
-		$wcps_taxonomy_category = get_post_meta( $post_id, 'wcps_taxonomy_category', true );		
+		$wcps_taxonomy_category = get_post_meta( $post_id, 'wcps_taxonomy_category', true );
 		
+		$wcps_product_ids = get_post_meta( $post_id, 'wcps_product_ids', true );		
 		
 		$wcps_cart_bg = get_post_meta( $post_id, 'wcps_cart_bg', true );
 		$wcps_cart_text_color = get_post_meta( $post_id, 'wcps_cart_text_color', true );
@@ -152,7 +153,7 @@ function wcps_body_sako($post_id)
 
 			}
 
-		elseif($wcps_content_source="taxonomy")
+		elseif($wcps_content_source=="taxonomy")
 			{
 				$wp_query = new WP_Query(
 					array (
@@ -177,8 +178,9 @@ function wcps_body_sako($post_id)
 			
 				$wp_query = new WP_Query(
 					array (
-						'post__in' => $wcps_product_ids,
 						'post_type' => 'product',
+						'post__in' => $wcps_product_ids,
+						'posts_per_page' => $wcps_total_items,
 						
 						
 						) );

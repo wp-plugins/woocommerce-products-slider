@@ -7,7 +7,7 @@
         
 <h3>Have any issue ?</h3>
 
-<p>Feel free to Contact with any issue for this plugin <a href="http://paratheme.com/qa/">http://paratheme.com/qa/</a>
+<p>Feel free to Contact with any issue for this plugin <a href="http://wordpress.org/support/plugin/woocommerce-products-slider/">http://wordpress.org/support/plugin/woocommerce-products-slider/</a>
 </p>
 
 <?php
@@ -41,14 +41,15 @@ if($wcps_customer_type=="free")
 
 <ul class="wcps-pro-features">
 
-	<li>Life Time Automatic Update.</li>
+    <li>Unlimited Domain.</li>
+    <li>Life Time Automatic Update.</li>
 	<li>Life Time Support via forum.</li>
 	<li>7 Days Refund.</li>
 	<li>Unlimited slider anywhere.</li>    
 	<li>Fully responsive and mobile ready.</li>    
 	<li>Query product by Taxonomy and Categories.</li>
     <li>Query product by Product id.</li>
-	<li>Amazing extra 5 themes.</li>   
+	<li>Amazing extra 4 themes.</li>   
 	<li>Slider Items Title Color.</li>  
 	<li>Slider Items Price Color.</li>
 	<li>Slider Custom ribbons.</li>    
@@ -58,8 +59,8 @@ if($wcps_customer_type=="free")
 
 <br /><br />
 <h3>Get Premium Vesrion:</h3><br />
-<strong style="font-size:20px;">Price: $5(USD)</strong><br />
-Plugin Link: <a target="_blank" href="http://paratheme.com/items/woocommerce-product-slider-for-wordpress/">http://paratheme.com/items/woocommerce-product-slider-for-wordpress/</a><br /><br /> <br />
+<strong style="font-size:20px;">Price: $15(USD)</strong><br /><br />
+Plugin Link: <a target="_blank" href="http://paratheme.com/items/woocommerce-product-slider-for-wordpress">http://paratheme.com/items/woocommerce-product-slider-for-wordpress</a><br /><br /> <br />
 
 
 </p>

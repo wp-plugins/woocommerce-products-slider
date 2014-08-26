@@ -100,7 +100,7 @@ function wcps_body_anti_ruger($post_id)
 			
 			}		
 		
-		elseif(($wcps_content_source=="older"))
+		else if(($wcps_content_source=="older"))
 			{
 			
 				$wp_query = new WP_Query(
@@ -114,7 +114,7 @@ function wcps_body_anti_ruger($post_id)
 
 			}		
 
-		elseif(($wcps_content_source=="featured"))
+		else if(($wcps_content_source=="featured"))
 			{
 			
 				$wp_query = new WP_Query(
@@ -132,7 +132,7 @@ function wcps_body_anti_ruger($post_id)
 			}	
 
 
-		elseif(($wcps_content_source=="year"))
+		else if(($wcps_content_source=="year"))
 			{
 			
 				$wp_query = new WP_Query(
@@ -144,7 +144,7 @@ function wcps_body_anti_ruger($post_id)
 
 			}
 
-		elseif(($wcps_content_source=="month"))
+		else if(($wcps_content_source=="month"))
 			{
 			
 				$wp_query = new WP_Query(
@@ -158,7 +158,7 @@ function wcps_body_anti_ruger($post_id)
 
 			}
 
-		elseif($wcps_content_source="taxonomy")
+		else if($wcps_content_source=="taxonomy")
 			{
 				$wp_query = new WP_Query(
 					array (
@@ -178,13 +178,14 @@ function wcps_body_anti_ruger($post_id)
 
 
 		
-		elseif(($wcps_content_source=="product_id"))
+		else if(($wcps_content_source=="product_id"))
 			{
 			
 				$wp_query = new WP_Query(
 					array (
-						'post__in' => $wcps_product_ids,
 						'post_type' => 'product',
+						'post__in' => $wcps_product_ids,
+						'posts_per_page' => $wcps_total_items,
 						
 						
 						) );

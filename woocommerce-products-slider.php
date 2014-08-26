@@ -3,7 +3,7 @@
 Plugin Name: Woocommerce Products Slider
 Plugin URI: http://paratheme.com/items/woocommerce-product-slider-for-wordpress/
 Description: Fully responsive and mobile ready Carousel Slider for your woo-commerce product. unlimited slider anywhere via short-codes and easy admin setting.
-Version: 1.1
+Version: 1.2
 Author: paratheme
 Author URI: http://paratheme.com
 License: GPLv2 or later
@@ -78,7 +78,7 @@ register_activation_hook(__FILE__, 'wcps_activation');
 
 function wcps_activation()
 	{
-		$wcps_version= "1.1";
+		$wcps_version= "1.2";
 		update_option('wcps_version', $wcps_version); //update plugin version.
 		
 		$wcps_customer_type= "free"; //customer_type "free"

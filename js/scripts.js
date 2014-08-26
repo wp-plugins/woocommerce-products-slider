@@ -2,12 +2,12 @@
 jQuery(document).ready(function($)
 	{
 		
-		$(".add_to_cart_button").wrap("<div class='cart-area' ></div>");
+		$(".wcps-items .add_to_cart_button").wrap("<div class='cart-area' ></div>");
 		
 		
 		
 		
-		$(document).on('click', '.tab-nav li', function()
+		$(document).on('click', '#wcps_metabox .tab-nav li', function()
 			{
 				$(".active").removeClass("active");
 				$(this).addClass("active");
@@ -34,21 +34,7 @@ jQuery(document).ready(function($)
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		
 		
