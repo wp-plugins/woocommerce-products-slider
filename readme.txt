@@ -3,7 +3,7 @@
 	Donate link: http://paratheme.com
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider
 	Requires at least: 3.8
-	Tested up to: 3.9.1
+	Tested up to: 4.0
 	Stable tag: 1.2
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
