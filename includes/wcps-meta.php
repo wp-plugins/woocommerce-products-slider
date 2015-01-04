@@ -446,10 +446,7 @@ function meta_boxes_wcps_input( $post ) {
                     <select name="wcps_themes"  >
                     <option class="wcps_themes_flat" value="flat" <?php if($wcps_themes=="flat")echo "selected"; ?>>Flat</option>
                     <option class="wcps_themes_rossi" value="rossi" <?php if($wcps_themes=="rossi")echo "selected"; ?>>Rossi</option>
-                    <option class="wcps_themes_saiga" value="saiga" <?php if($wcps_themes=="saiga")echo "selected"; ?>>Saiga</option>                  
-                    <option class="wcps_themes_sako" value="sako" <?php if($wcps_themes=="sako")echo "selected"; ?>>Sako</option>
-                    <option class="wcps_themes_ruger" value="ruger" <?php if($wcps_themes=="ruger")echo "selected"; ?>>Ruger</option>
-                    <option class="wcps_themes_ruger" value="anti-ruger" <?php if($wcps_themes=="anti-ruger")echo "selected"; ?>>Anti Ruger</option>                    
+                    
                     </select>
                     </td>
 				</tr>
