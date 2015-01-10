@@ -3,7 +3,7 @@
 	Donate link: http://paratheme.com
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider
 	Requires at least: 3.8
-	Tested up to: 4.0
+	Tested up to: 4.1
 	Stable tag: 1.2
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -32,17 +32,31 @@ A premium quality carousel slider to slide your woo-commerce product. easy to us
 * Custom number of slider items to query.
 * Custom number of  Slider Column Number.
 * Slider Items Thumbnail images Size selection.
+* Slider Items Thumbnail custom height.
 * Featured product marker.
-* Ribbons for slider.
-* Background Image for slider area.
+* Custom background Image for slider area.
 * Add to cart Background Color.
-* Add to cart Text Color.
-* Items Title Color
-* Items Title Font Size
-* Items Price Color
-* Items price Font Size
-* Slider Pagination Background Color
-* Slider Pagination Text Color
+
+
+<strong>Premium Features</strong><br />
+
+* Extra four themes.
+* Slider column number for mobile device.
+* Slider ribbons.
+* Slider custom ribbons.
+* Silder items title color.
+* Silder items title font size.
+* Silder items price font color .
+* Silder items price font size.
+* Pagination background color
+* Pagination Text Color.
+
+<strong><i>Query products</i></strong><br />
+* from On Sale Product
+* from Product Taxonomy & Categories
+* by Product id's
+
+
 
 <br />
 <strong>Video Tutorial Here.</strong>
@@ -79,6 +93,9 @@ then paste this shortcode anywhere in your page to display slider<br />
 
 
 	= 1.2 =
+    * 10/12/2015 Remove featured marker update as text.
+    * 10/12/2015 Update flat theme.
+    * 10/12/2015 Removed some features.
     * 26/08/2014 javascripts conflit fixed.
 	* 26/08/2014 query post error fixed.
 
