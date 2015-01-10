@@ -1,7 +1,7 @@
 === Woocommerce Products Slider ===
 	Contributors: paratheme
 	Donate link: http://paratheme.com
-	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider
+	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider
 	Requires at least: 3.8
 	Tested up to: 4.1
 	Stable tag: 1.2
@@ -52,6 +52,7 @@ A premium quality carousel slider to slide your woo-commerce product. easy to us
 * Pagination Text Color.
 
 <strong><i>Query products</i></strong><br />
+
 * from On Sale Product
 * from Product Taxonomy & Categories
 * by Product id's
