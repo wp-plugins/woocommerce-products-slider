@@ -27,7 +27,7 @@ A premium quality carousel slider to slide your woo-commerce product. easy to us
 
 * Fully responsive and mobile ready.
 * Unlimited slider anywhere.
-* Query post from latest post, Older Published, Featured Items, by Only Year, by Month of a year, Taxonomy & Categories, Product id.
+* Query post from latest post, Older Published, Featured Items, by Only Year, by Month of a year.
 * Two different Theme.
 * Custom number of slider items to query.
 * Custom number of  Slider Column Number.
