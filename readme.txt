@@ -4,7 +4,7 @@
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider
 	Requires at least: 3.8
 	Tested up to: 4.1
-	Stable tag: 1.2
+	Stable tag: 1.3
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,7 +92,9 @@ then paste this shortcode anywhere in your page to display slider<br />
 
 == Changelog ==
 
-
+	= 1.3 =
+    * 31/01/2015 add - default empty thubnail.
+	
 	= 1.2 =
     * 10/12/2015 Remove featured marker update as text.
     * 10/12/2015 Update flat theme.

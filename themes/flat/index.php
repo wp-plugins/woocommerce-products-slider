@@ -42,6 +42,8 @@ function wcps_body_flat($post_id)
 		$wcps_items_thumb_size = get_post_meta( $post_id, 'wcps_items_thumb_size', true );
 		$wcps_items_thumb_max_hieght = get_post_meta( $post_id, 'wcps_items_thumb_max_hieght', true );
 		
+		$wcps_items_empty_thumb = get_post_meta( $post_id, 'wcps_items_empty_thumb', true );	
+		
 		$wcps_ribbon_name = 'none';		
 		
 		
@@ -237,6 +239,12 @@ function wcps_body_flat($post_id)
 		
 		$wcps_thumb_url = $wcps_thumb['0'];
 		
+		if(empty($wcps_thumb_url))
+			{
+				$wcps_thumb_url = $wcps_items_empty_thumb;
+			}
+		
+		
 		
 		$currency = get_woocommerce_currency_symbol();
 		
@@ -263,7 +271,7 @@ function wcps_body_flat($post_id)
 
 		
 		$wcps_body.= '<div class="wcps-items" >';
-		$wcps_body.= '<div style="max-height:'.$wcps_items_thumb_max_hieght.';" class="wcps-items-thumb"><a href="'.get_permalink().'"><img src="'.$wcps_thumb_url.'" /></a>';
+		$wcps_body.= '<div style="max-height:'.$wcps_items_thumb_max_hieght.';" class="wcps-items-thumb"><a href="'.get_permalink().'"><img alt="'.get_the_title().'" src="'.$wcps_thumb_url.'" /></a>';
 		if($wcps_featured=="yes")
 			{
 			$wcps_body.= '<div class="wcps-featured">Featured</div>';

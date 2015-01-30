@@ -100,6 +100,9 @@ function meta_boxes_wcps_input( $post ) {
 	$wcps_items_thumb_size = get_post_meta( $post->ID, 'wcps_items_thumb_size', true );	
 	$wcps_items_thumb_max_hieght = get_post_meta( $post->ID, 'wcps_items_thumb_max_hieght', true );	
 	
+	$wcps_items_empty_thumb = get_post_meta( $post->ID, 'wcps_items_empty_thumb', true );		
+	
+	
 	
 	
 	
@@ -397,6 +400,75 @@ function meta_boxes_wcps_input( $post ) {
 
             </li>
             <li style="display: none;" class="box3 tab-box ">
+            
+				<div class="option-box">
+                    <p class="option-title">Empty Thumbnail</p>
+                    <p class="option-info"></p>
+					<input type="text" name="wcps_items_empty_thumb" id="wcps_items_empty_thumb" value="<?php if(!empty($wcps_items_empty_thumb)) echo $wcps_items_empty_thumb; ?>" /><br />
+                    <input id="wcps_items_empty_thumb_upload" class="wcps_items_empty_thumb_upload button" type="button" value="Upload Image" />
+                       <br />
+                       
+                       
+                        <?php
+                        	if(empty($wcps_items_empty_thumb))
+								{
+								?>
+                                <img class="wcps_items_empty_thumb_display" width="300px" src="<?php echo wcps_plugin_url.'css/no-thumb.png'; ?>" />
+                                <?php
+								}
+							else
+								{
+								?>
+                                <img class="wcps_items_empty_thumb_display" width="300px" src="<?php echo $wcps_items_empty_thumb; ?>" />
+                                <?php
+								}
+						?>
+                       
+                       
+                       
+                       
+                       
+					<script>
+                        jQuery(document).ready(function($){
+
+                            var custom_uploader; 
+                         
+                            jQuery('#wcps_items_empty_thumb_upload').click(function(e) {
+													
+                                e.preventDefault();
+                         
+                                //If the uploader object has already been created, reopen the dialog
+                                if (custom_uploader) {
+                                    custom_uploader.open();
+                                    return;
+                                }
+                        
+                                //Extend the wp.media object
+                                custom_uploader = wp.media.frames.file_frame = wp.media({
+                                    title: 'Choose Image',
+                                    button: {
+                                        text: 'Choose Image'
+                                    },
+                                    multiple: false
+                                });
+                        
+                                //When a file is selected, grab the URL and set it as the text field's value
+                                custom_uploader.on('select', function() {
+                                    attachment = custom_uploader.state().get('selection').first().toJSON();
+                                    jQuery('#wcps_items_empty_thumb').val(attachment.url);
+                                    jQuery('.wcps_items_empty_thumb_display').attr('src',attachment.url);									
+                                });
+                         
+                                //Open the uploader dialog
+                                custom_uploader.open();
+                         
+                            });
+                            
+                            
+                        })
+                    </script>      
+                </div> 
+            
 				<div class="option-box">
                     <p class="option-title">Filter Slider Content.</p>
                     <p class="option-info"></p>
@@ -628,7 +700,7 @@ function meta_boxes_wcps_save( $post_id ) {
 	$wcps_items_thumb_size = sanitize_text_field( $_POST['wcps_items_thumb_size'] );
 	$wcps_items_thumb_max_hieght = sanitize_text_field( $_POST['wcps_items_thumb_max_hieght'] );	
 			
-	
+	$wcps_items_empty_thumb = sanitize_text_field( $_POST['wcps_items_empty_thumb'] );	
 			
 
 
@@ -666,6 +738,8 @@ function meta_boxes_wcps_save( $post_id ) {
 
 	update_post_meta( $post_id, 'wcps_items_thumb_size', $wcps_items_thumb_size );	
 	update_post_meta( $post_id, 'wcps_items_thumb_max_hieght', $wcps_items_thumb_max_hieght );
+	
+	update_post_meta( $post_id, 'wcps_items_empty_thumb', $wcps_items_empty_thumb );	
 	
 	
 
