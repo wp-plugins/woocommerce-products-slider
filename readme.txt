@@ -93,7 +93,7 @@ then paste this shortcode anywhere in your page to display slider<br />
 == Changelog ==
 
 	= 1.3 =
-    * 31/01/2015 add - default empty thubnail.
+    * 31/01/2015 add - default empty thumbnail.
 	
 	= 1.2 =
     * 10/12/2015 Remove featured marker update as text.
