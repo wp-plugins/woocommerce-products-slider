@@ -300,8 +300,8 @@ function wcps_body_flat($post_id)
 			$("#wcps-'.$post_id.'").owlCarousel({
 				
 				items : '.$wcps_column_number.', //10 items above 1000px browser width
-				itemsDesktop : [1000,5], //5 items between 1000px and 901px
-				itemsDesktopSmall : [900,3], // betweem 900px and 601px
+				itemsDesktop : [1000,'.$wcps_column_number.'], //5 items between 1000px and 901px
+				itemsDesktopSmall : [900,2], // betweem 900px and 601px
 				itemsTablet: [600,2], //2 items between 600 and 0
 				itemsMobile : [479,'.$wcps_column_number_mobile.'], 
 				navigationText : ["",""],

@@ -1,7 +1,7 @@
 === Woocommerce Products Slider ===
 	Contributors: paratheme
 	Donate link: http://paratheme.com
-	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider
+	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider, sale product slider, best sale product slider, top product slider
 	Requires at least: 3.8
 	Tested up to: 4.1
 	Stable tag: 1.3
@@ -93,7 +93,8 @@ then paste this shortcode anywhere in your page to display slider<br />
 == Changelog ==
 
 	= 1.3 =
-    * 31/01/2015 add - default empty thumbnail.
+    * 31/01/2015 add - default empty thubnail.
+    * 31/01/2015 fix - slider comlumn number fix for desktop.
 	
 	= 1.2 =
     * 10/12/2015 Remove featured marker update as text.
