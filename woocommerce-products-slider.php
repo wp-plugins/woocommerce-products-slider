@@ -38,7 +38,7 @@ function wcps_init_scripts()
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('wcps_js', plugins_url( '/js/scripts.js' , __FILE__ ) , array( 'jquery' ));
 		
-		wp_localize_script('wcps_js', 'wcps_ajax', array( 'wcps_ajaxurl' => admin_url( 'admin-ajax.php')));
+		//wp_localize_script('wcps_js', 'wcps_ajax', array( 'wcps_ajaxurl' => admin_url( 'admin-ajax.php')));
 		wp_enqueue_style('wcps_style', wcps_plugin_url.'css/style.css');
 
 		wp_enqueue_script('owl.carousel', plugins_url( '/js/owl.carousel.js' , __FILE__ ) , array( 'jquery' ));
@@ -57,17 +57,7 @@ function wcps_init_scripts()
 		// Style for themes
 		wp_enqueue_style('wcps-style-flat', wcps_plugin_url.'themes/flat/style.css');			
 		wp_enqueue_style('wcps-style-rossi', wcps_plugin_url.'themes/rossi/style.css');
-		wp_enqueue_style('wcps-style-saiga', wcps_plugin_url.'themes/saiga/style.css');
-		wp_enqueue_style('wcps-style-sako', wcps_plugin_url.'themes/sako/style.css');
-		wp_enqueue_style('wcps-style-ruger', wcps_plugin_url.'themes/ruger/style.css');		
-		wp_enqueue_style('wcps-style-anti-ruger', wcps_plugin_url.'themes/anti-ruger/style.css');			
-		
-		//Style for font
-		wp_register_style( 'Raleway', 'http://fonts.googleapis.com/css?family=Raleway:900'); 
-		wp_enqueue_style( 'Raleway' );
-		
 
-		
 	}
 add_action("init","wcps_init_scripts");
 
