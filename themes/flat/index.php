@@ -221,6 +221,22 @@ function wcps_body_flat($post_id)
 			
 			
 			}
+			
+		else
+			{
+			
+				$wp_query = new WP_Query(
+					array (
+						'post_type' => 'product',
+						'post_status' => 'publish',
+						'posts_per_page' => $wcps_total_items,
+						
+						
+						) );
+			
+			
+			}			
+			
 
 								
 		

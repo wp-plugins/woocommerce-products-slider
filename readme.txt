@@ -4,7 +4,7 @@
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider, sale product slider, best sale product slider, top product slider
 	Requires at least: 3.8
 	Tested up to: 4.1
-	Stable tag: 1.3
+	Stable tag: 1.4
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -91,6 +91,10 @@ then paste this shortcode anywhere in your page to display slider<br />
 3. screenshot-1 admin settings
 
 == Changelog ==
+
+
+	= 1.4 =
+    * 23/02/2015 fix - Fixed issue with infinite loop.
 
 	= 1.3 =
     * 31/01/2015 add - default empty thubnail.
