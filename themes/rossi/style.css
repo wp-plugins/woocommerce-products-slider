@@ -80,7 +80,8 @@
 
 .wcps-container .wcps-rossi div.wcps-items div.wcps-items-cart .amount,
 .wcps-container .wcps-rossi div.wcps-items div.wcps-items-cart del,
-.wcps-container .wcps-rossi div.wcps-items div.wcps-items-cart ins{
+.wcps-container .wcps-rossi div.wcps-items div.wcps-items-cart ins,
+.wcps-container .wcps-rossi div.wcps-items div.wcps-items-cart .woocommerce-price-suffix{
 	display:none; }
 
 
