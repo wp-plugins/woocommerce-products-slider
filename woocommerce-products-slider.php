@@ -62,9 +62,9 @@ function wcps_init_scripts()
 add_action("init","wcps_init_scripts");
 
 
-// to work upload button on user profile
-add_action( 'admin_enqueue_scripts', 'wp_enqueue_media' ); 
 
+add_action( 'admin_enqueue_scripts', 'wp_enqueue_media' ); // to work upload button
+add_filter('widget_text', 'do_shortcode'); //shoer-code support into sidebar.
 
 
 register_activation_hook(__FILE__, 'wcps_activation');
