@@ -18,7 +18,7 @@ A premium quality carousel slider to slide your woo-commerce product. easy to us
 
 ### Woocommerce Products Slider by http://paratheme.com
 
-* [See the Live demo!&raquo;](http://product-slider.com)
+* [See the Live demo!&raquo;](http://paratheme.com/demo/woocommerce-products-slider/)
 * [Watch Video Tutorial!&raquo;](https://www.youtube.com/watch?v=B0sOSp3h9fE)
 * [Upgrade to Premium!&raquo;](http://paratheme.com/items/woocommerce-product-slider-for-wordpress/)
 
