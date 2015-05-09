@@ -71,9 +71,7 @@
 					
 					
 								$wcps_ribbons_des = array(	
-					
-											
-											
+
 														'dis-10'=>'Discount 10%',
 														'dis-20'=>'Discount 20%',												
 														'dis-30'=>'Discount 30%',													
@@ -94,12 +92,7 @@
 														'sale'=>'Sale',	
 														'pro'=>'Pro',
 														'best'=>'Best',	
-											
-											
-											
-											
-											
-											
+
 											
 														);	
 					

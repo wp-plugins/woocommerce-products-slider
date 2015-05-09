@@ -3,7 +3,7 @@
 function wcps_body_flat($post_id)
 	{
 		
-		$wcps_ribbons = array('none'=>'none');
+		$wcps_ribbons = get_option( 'wcps_ribbons' );
 		
 		
 		$wcps_bg_img = get_post_meta( $post_id, 'wcps_bg_img', true );
@@ -44,9 +44,9 @@ function wcps_body_flat($post_id)
 		
 		$wcps_items_empty_thumb = get_post_meta( $post_id, 'wcps_items_empty_thumb', true );	
 		
-		$wcps_ribbon_name = 'none';		
+		$wcps_ribbon_name = get_post_meta( $post_id, 'wcps_ribbon_name', true );	
 		
-		
+
 		
 		
 		$wcps_body = '';

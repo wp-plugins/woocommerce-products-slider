@@ -3,8 +3,8 @@
 	Donate link: http://paratheme.com
 	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider, sale product slider, best sale product slider, top product slider
 	Requires at least: 3.8
-	Tested up to: 4.2
-	Stable tag: 1.4
+	Tested up to: 4.2.2
+	Stable tag: 1.5
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,7 +92,9 @@ then paste this shortcode anywhere in your page to display slider<br />
 
 == Changelog ==
 
-
+	= 1.5 =
+    * 09/05/2015 add - added ribbons.
+	
 	= 1.4 =
     * 23/02/2015 fix - Fixed issue with infinite loop.
 

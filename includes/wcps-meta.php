@@ -103,7 +103,7 @@ function meta_boxes_wcps_input( $post ) {
 	$wcps_items_empty_thumb = get_post_meta( $post->ID, 'wcps_items_empty_thumb', true );		
 	
 	
-	
+	$wcps_ribbon_name = get_post_meta( $post->ID, 'wcps_ribbon_name', true );	
 	
 	
 
@@ -294,7 +294,56 @@ function meta_boxes_wcps_input( $post ) {
                   
                     </select>                 
                 </div> 
-				 
+
+                
+				<div class="option-box">
+                    <p class="option-title">Slider Ribbon</p>
+                    <p class="option-info"></p>
+					<?php
+                    
+					echo '<select name="wcps_ribbon_name" >';
+	
+						if(empty($wcps_ribbon_name))
+							{
+								$wcps_ribbon_name = "";
+							}
+						echo  '<option value="none" '.(($wcps_ribbon_name=="none" ) ? "selected" : "").' >None</option>';
+						echo  '<option value="free" '.(($wcps_ribbon_name=="free" ) ? "selected" : "").' >Free</option>';
+						echo  '<option value="save" '.(($wcps_ribbon_name=="save" ) ? "selected" : "").' >Save</option>';								
+						echo  '<option value="hot" '.(($wcps_ribbon_name=="hot" ) ? "selected" : "").' >Hot</option>';
+						echo  '<option value="pro" '.(($wcps_ribbon_name=="pro" ) ? "selected" : "").' >Pro</option>';								
+						echo  '<option value="best" '.(($wcps_ribbon_name=="best" ) ? "selected" : "").' >Best</option>';
+						echo  '<option value="gift" '.(($wcps_ribbon_name=="gift" ) ? "selected" : "").' >Gift</option>';
+						echo  '<option value="sale" '.(($wcps_ribbon_name=="sale" ) ? "selected" : "").' >Sale</option>';																
+						echo  '<option value="new" '.(($wcps_ribbon_name=="new" ) ? "selected" : "").' >New</option>';	
+						echo  '<option value="top" '.(($wcps_ribbon_name=="top" ) ? "selected" : "").' >Top</option>';
+						echo  '<option value="fresh" '.(($wcps_ribbon_name=="fresh" ) ? "selected" : "").' >Fresh</option>';								
+						
+						echo  '<option value="dis-10" '.(($wcps_ribbon_name=="dis-10" ) ? "selected" : "").' >-10%</option>';								
+						echo  '<option value="dis-20" '.(($wcps_ribbon_name=="dis-20" ) ? "selected" : "").' >-20%</option>';
+						echo  '<option value="dis-30" '.(($wcps_ribbon_name=="dis-30" ) ? "selected" : "").' >-30%</option>';
+						echo  '<option value="dis-40" '.(($wcps_ribbon_name=="dis-40" ) ? "selected" : "").' >-40%</option>';
+						
+						echo  '<option value="dis-50" '.(($wcps_ribbon_name=="dis-50" ) ? "selected" : "").' >-50%</option>';								
+						
+						echo  '<option value="dis-60" '.(($wcps_ribbon_name=="dis-60" ) ? "selected" : "").' >-60%</option>';								
+						
+						echo  '<option value="dis-70" '.(($wcps_ribbon_name=="dis-70" ) ? "selected" : "").' >-70%</option>';									
+						
+						echo  '<option value="dis-80" '.(($wcps_ribbon_name=="dis-80" ) ? "selected" : "").' >-80%</option>';								
+						
+						echo  '<option value="dis-90" '.(($wcps_ribbon_name=="dis-90" ) ? "selected" : "").' >-90%</option>';								
+						
+						echo  '<option value="dis-100" '.(($wcps_ribbon_name=="dis-100" ) ? "selected" : "").' >-100%</option>';									
+						
+							
+					echo  '</select><br />';
+			
+			
+					
+					?>                 
+                </div> 
+                
                 
 				<div class="option-box">
                     <p class="option-title">Slider Thumbnail Size</p>
@@ -701,7 +750,7 @@ function meta_boxes_wcps_save( $post_id ) {
 	$wcps_items_thumb_max_hieght = sanitize_text_field( $_POST['wcps_items_thumb_max_hieght'] );	
 			
 	$wcps_items_empty_thumb = sanitize_text_field( $_POST['wcps_items_empty_thumb'] );	
-			
+	$wcps_ribbon_name = sanitize_text_field( $_POST['wcps_ribbon_name'] );		
 
 
   // Update the meta field in the database.
@@ -741,7 +790,7 @@ function meta_boxes_wcps_save( $post_id ) {
 	
 	update_post_meta( $post_id, 'wcps_items_empty_thumb', $wcps_items_empty_thumb );	
 	
-	
+	update_post_meta( $post_id, 'wcps_ribbon_name', $wcps_ribbon_name );
 
 }
 add_action( 'save_post', 'meta_boxes_wcps_save' );
