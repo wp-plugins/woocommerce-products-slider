@@ -1,7 +1,7 @@
 === Woocommerce Products Slider ===
 	Contributors: paratheme
 	Donate link: http://paratheme.com
-	Tags: carousel, product, slider, woocommerce, carousel slider, product slider, woocommerce slider, Woocommerce Product slider, featured product slider, sale product slider, best sale product slider, top product slider
+	Tags: product slider,carousel, product, slider, woocommerce, carousel slider, woocommerce slider, Woocommerce Product slider, featured product slider, sale product slider
 	Requires at least: 3.8
 	Tested up to: 4.2.2
 	Stable tag: 1.5
